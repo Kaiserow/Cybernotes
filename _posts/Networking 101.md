@@ -5,4 +5,5 @@ Günümüzde "Internet" kavramı "inter connect" yani "ağlar arası bağlantı"
 
 
 Local Networks
+
 Şimdilik kafa karışıklığı olmaması açısından sadece Local network'lerden bahsedelim. Local yani yerel ağlar, 1-2 cihazdan oluşan ev ağları olabileceği gibi sayılarının 100'ü aştığı cihazların bulunduğu ağlar da olabilirler. Buradaki önemli nokta cihaz sayısı değil, yerel ağların sadece yerel bölgede kaldığı, dışarıya açıldığında artık ona yerel demememiz gerektiğidir. Yani yerel ağ; okul, ofis, ev, fabrika gibi belirli bir coğrafi konumda bulunan cihazları birbirine bağlayan bir ağ türüdür.

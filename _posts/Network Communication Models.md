@@ -5,7 +5,7 @@ Birazdan göreceğimiz katmanlı iletişim modelleri, ağ iletişiminde görevli
 İnternet temelde TCP ve IP protokollerinin üstüne inşa edilmiş olduğu için TCP/IP modeli ismini buradan almıştır.
 
 
-## Application Layer -> Son kullanıcı için çalışan uygulamaların kullandığı protokolleri içerir.
+## Application Layer -> ! Son kullanıcı için çalışan uygulamaların kullandığı protokolleri içerir.
 
 ## Transport Layer -> Çeşitli ağlardaki cihazlar arasındaki iletişime destek verir.
 

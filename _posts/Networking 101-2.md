@@ -1,12 +1,16 @@
 # Wireless Networks
 
-## GPS (Global Positioning System) -> Günümüzde kullanılan bir akıllı telefon uydudan sinyal alarak 10 metrelik bir hata payıyla mevcut konumunuzu hesaplayabilir. Bu sisteme biz genel olarak GPS diyoruz.
+## GPS (Global Positioning System)
+Günümüzde kullanılan bir akıllı telefon uydudan sinyal alarak 10 metrelik bir hata payıyla mevcut konumunuzu hesaplayabilir. Bu sisteme biz genel olarak GPS diyoruz.
 
-## Wi-Fi (Wireless Fidelity) -> İnternete bağlanmak için kablosuz bir bağlantı türüdür. Bir kablosuz cihaz radyo frekansları aracılığı ile internete bağlanmak için bir accsess pointe (erişim noktasına) ihtiyaç duyar. Bu internet bağlantısını başka kablosuz cihazlarla paylaşmak için bir hotspot noktası oluşturulabilir ve böylece diğer cihazlar da internete bağlanabilir.
+## Wi-Fi (Wireless Fidelity)
+İnternete bağlanmak için kablosuz bir bağlantı türüdür. Bir kablosuz cihaz radyo frekansları aracılığı ile internete bağlanmak için bir accsess pointe (erişim noktasına) ihtiyaç duyar. Bu internet bağlantısını başka kablosuz cihazlarla paylaşmak için bir hotspot noktası oluşturulabilir ve böylece diğer cihazlar da internete bağlanabilir.
 
-## Bluetooth -> Düşük güce sahip ve kapsama alanı düşüktür. Kablosuz kulaklık, saat, mikrofon gibi donanımları kablolu olarak kullanmaya alternatif sağlayan bağlantı türüdür. Bluetooth çok yakın mesafeden de olsa veri aktarımına elektromanyetik sinyaller aracılığı ile olanak tanır. Ayrıca bluetooth, bir mobil cihazdaki ağ bağlantısını başka bir mobil cihaza veya bilgisayara aktarmak için "Tethering" yöntemini kullanabilir. Tethering sadece bluetootha özgü değildir, aynı zamanda USB ve Wi-Fi aracılığı ile de bir cihazdan başka bir cihaza ağ bağlantısı aktarılabilir.
+## Bluetooth
+Düşük güce sahip ve kapsama alanı düşüktür. Kablosuz kulaklık, saat, mikrofon gibi donanımları kablolu olarak kullanmaya alternatif sağlayan bağlantı türüdür. Bluetooth çok yakın mesafeden de olsa veri aktarımına elektromanyetik sinyaller aracılığı ile olanak tanır. Ayrıca bluetooth, bir mobil cihazdaki ağ bağlantısını başka bir mobil cihaza veya bilgisayara aktarmak için "Tethering" yöntemini kullanabilir. Tethering sadece bluetootha özgü değildir, aynı zamanda USB ve Wi-Fi aracılığı ile de bir cihazdan başka bir cihaza ağ bağlantısı aktarılabilir.
 
-## NFC (Near Field Communication) -> Adından da anlaşılacağı üzere çok yakın mesafeden veri aktarımına olanak tanır. Örneğin bir telefon ile ödeme sistemine bağlanılarak ödeme yapılabilir.
+## NFC (Near Field Communication)
+Adından da anlaşılacağı üzere çok yakın mesafeden veri aktarımına olanak tanır. Örneğin bir telefon ile ödeme sistemine bağlanılarak ödeme yapılabilir.
 
 
 # WLAN (Wireless Local Area Network)

@@ -46,7 +46,7 @@ Physical Layer ile Network layer arasındaki bağlantıyı sağlar. MAC Addressi
 Verinin fiziksel olarak iletiminden sorumludur. Bu katman ışık, radyo dalgaları ve elektrik sinyalleri gibi fiziksel ortamlardan veri taşır. Bitlerin iletimi ile ilgilenir.
 
 
-NOT: Her iki modeldeki katman tanımlamaları çok genel olup çok fazla ayrıntı içermemektedir. Buradaki amaç sadece katmanların genel görünüşünü görmektir. Bu katmanların her biri ilerleyen konularda zamanla işlenecektir.
+#### NOT: Her iki modeldeki katman tanımlamaları çok genel olup çok fazla ayrıntı içermemektedir. Buradaki amaç sadece katmanların genel görünüşünü görmektir. Bu katmanların her biri ilerleyen konularda zamanla işlenecektir.
 
 
 

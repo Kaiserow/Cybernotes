@@ -11,7 +11,7 @@ Son kullanıcı için çalışan uygulamaların kullandığı protokolleri içer
 ## Transport Layer
 Çeşitli ağlardaki cihazlar arasındaki iletişime destek verir.
 
-## Internet
+## Internet Layer
 Ağ üzerindeki en iyi yolu belirler
 
 ## Network Access

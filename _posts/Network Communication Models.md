@@ -31,7 +31,7 @@ Data Link Layer -> Physical Layer ile Network layer arasındaki bağlantıyı sa
 
 Physical Layer -> Verinin fiziksel olarak iletiminden sorumludur. Bu katman ışık, radyo dalgaları ve elektrik sinyalleri gibi fiziksel ortamlardan veri taşır. Bitlerin iletimi ile ilgilenir.
 
-![Image](images/x.png)
+![Image](images/tcpıposimodel.png)
 NOT: Her iki modeldeki katman tanımlamaları çok genel olup çok fazla ayrıntı içermemektedir. Buradaki amaç sadece katmanların genel görünüşünü görmektir. Bu katmanların her biri ilerleyen konularda zamanla işlenecektir.
 
 

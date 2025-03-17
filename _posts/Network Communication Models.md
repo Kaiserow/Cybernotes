@@ -8,29 +8,39 @@ Birazdan göreceğimiz katmanlı iletişim modelleri, ağ iletişiminde görevli
 ## Application Layer  
 Son kullanıcı için çalışan uygulamaların kullandığı protokolleri içerir.
 
-## Transport Layer -> Çeşitli ağlardaki cihazlar arasındaki iletişime destek verir.
+## Transport Layer
+Çeşitli ağlardaki cihazlar arasındaki iletişime destek verir.
 
-## Internet -> Ağ üzerindeki en iyi yolu belirler
+## Internet
+Ağ üzerindeki en iyi yolu belirler
 
-## Network Access -> Donanımı ve medyayı ağa dahil etmeye olanak tanır.
+## Network Access
+Donanımı ve medyayı ağa dahil etmeye olanak tanır.
 
 # OSI (Open Systems Interconnection) Model
 
 TCP/IP modeli içindeki katmanlarda meydana gelen protokolleri tam anlamıyla açıkladığı için bir protokol modelidir. Hatta bu yüzden "TCP/IP Protocol Suite" olarak adlandırıldığını da görebilirsiniz. Ama bunun aksine OSI modeli bir katmanda tamamlanması gereken işlevleri açıklamasına rağmen ayrı katmanlarda meydana gelen farklı protokol süreçlerini tam olarak açıklamaz. OSI modelinin temel amacı ağ iletişimi için gerekli olan işlevlerin daha kolay anlaşılabilmesi için bir referans görevi görmektir. Bu yüzden OSI modeli bir referans modelidir.
 
-Application Layer -> Uç kısımlarda (Örneğin client-to-server yani clientten servere gönderilen bir paket gibi) uygulamaların ve kullanıcı yazılımlarının ağ üzerinden iletişim kurmasını sağlar. Örneğin bir serverde bulunan web sayfasını görüntülemek için HTTP protokolü kullanır. Bu işlem için serverde bulunan web server yazılımına HTTP Request gönderilir ve karşılığında istemci bir web sayfası alır.
+## Application Layer 
+Uç kısımlarda (Örneğin client-to-server yani clientten servere gönderilen bir paket gibi) uygulamaların ve kullanıcı yazılımlarının ağ üzerinden iletişim kurmasını sağlar. Örneğin bir serverde bulunan web sayfasını görüntülemek için HTTP protokolü kullanır. Bu işlem için serverde bulunan web server yazılımına HTTP Request gönderilir ve karşılığında istemci bir web sayfası alır.
 
-Presentation Layer -> Bu katman, ağ üzerinde iletilen verinin doğru bir şekilde anlaşılabilir ve uyumlu bir formatta sunulmasını sağlar. Veri formatları, şifreleme, sıkıştırma ve veri dönüşümü gibi işlemler bu katmanda gerçekleşir. Örneğin düşük bant genişliğine sahip bir ağda video, ses gibi verilerin sıkıştırılmasından bu katman sorumludur.
+## Presentation Layer
+Bu katman, ağ üzerinde iletilen verinin doğru bir şekilde anlaşılabilir ve uyumlu bir formatta sunulmasını sağlar. Veri formatları, şifreleme, sıkıştırma ve veri dönüşümü gibi işlemler bu katmanda gerçekleşir. Örneğin düşük bant genişliğine sahip bir ağda video, ses gibi verilerin sıkıştırılmasından bu katman sorumludur.
 
-Session Layer -> Ağ üzerinde veri iletimi sırasında çeşitli oturumlar kurulur, yönetilir ve sonlandırılır. Bu oturumlar iki uygulama arasındaki iletişimin devamlılığını sağlar. Bunların hepsinden sorumlu olan katman session layer'dır. Örneğin clienttan servera veri göndermek için bağlantı kurulduğunda bu bağlantıyı yöneten katman session layer'dır.
+## Session Layer
+Ağ üzerinde veri iletimi sırasında çeşitli oturumlar kurulur, yönetilir ve sonlandırılır. Bu oturumlar iki uygulama arasındaki iletişimin devamlılığını sağlar. Bunların hepsinden sorumlu olan katman session layer'dır. Örneğin clienttan servera veri göndermek için bağlantı kurulduğunda bu bağlantıyı yöneten katman session layer'dır.
 
-Transport Layer -> Kaynak ile hedef arasında uçtan uca bağlantıyı sağlar. Bu katmanın ana amacı verilerin güvenilir ve düzenli bir şekilde iletilmesini sağlamaktır. Bu katmanda genelde TCP (Güvenilir ama daha yavaş protokol) ve UDP (Hızlı ama güvenirlik garantisi vermeyen) protokollerinden bahsedilir.
+## Transport Layer
+Kaynak ile hedef arasında uçtan uca bağlantıyı sağlar. Bu katmanın ana amacı verilerin güvenilir ve düzenli bir şekilde iletilmesini sağlamaktır. Bu katmanda genelde TCP (Güvenilir ama daha yavaş protokol) ve UDP (Hızlı ama güvenirlik garantisi vermeyen) protokollerinden bahsedilir.
 
-Network Layer -> Cihazlar arasındaki veri iletimini sağlamak ve yönlendirmek (routing) için kullanılır. Bu katman "IP Adressing", "Packet Forwarding (Routing)" yani yönlendirme ve iletim esnasında en iyi yolu tercih etme gibi işlemlerden sorumludur.
+## Network Layer
+Cihazlar arasındaki veri iletimini sağlamak ve yönlendirmek (routing) için kullanılır. Bu katman "IP Adressing", "Packet Forwarding (Routing)" yani yönlendirme ve iletim esnasında en iyi yolu tercih etme gibi işlemlerden sorumludur.
 
-Data Link Layer -> Physical Layer ile Network layer arasındaki bağlantıyı sağlar. MAC Addressing (Fiziksel Adresleme) ve Framing gibi işlemlerden sorumludur. 
+## Data Link Layer
+Physical Layer ile Network layer arasındaki bağlantıyı sağlar. MAC Addressing (Fiziksel Adresleme) ve Framing gibi işlemlerden sorumludur. 
 
-Physical Layer -> Verinin fiziksel olarak iletiminden sorumludur. Bu katman ışık, radyo dalgaları ve elektrik sinyalleri gibi fiziksel ortamlardan veri taşır. Bitlerin iletimi ile ilgilenir.
+## Physical Layer
+Verinin fiziksel olarak iletiminden sorumludur. Bu katman ışık, radyo dalgaları ve elektrik sinyalleri gibi fiziksel ortamlardan veri taşır. Bitlerin iletimi ile ilgilenir.
 
 ![Image](images/tcpıposimodel.png)
 

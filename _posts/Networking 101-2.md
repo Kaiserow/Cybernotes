@@ -46,16 +46,19 @@ Kablosuz LAN cihazlarını test eden bir başka kuruluş da Wi-Fi Alliance'dır.
 
 Router ya da modem arayüzleri bize yapılandırabileceğimiz wireless ayarlar sunar (Modem arayüzünüze, internet sağlayıcınızın arayüzünüz için atamış olduğu IP'yi aratarak ulaşabilirsiniz.) Bu ayarlardan bazıları şunlardır;
 
-## Network Mode: 
+## Network Mode
 Hangi teknolojinin yani standartın kullanıldığını ifade eder. Örneğin 802.11b, 802.11g ya da mixed mode şeklinde eski ve yeni standartlara sahip farklı cihazların aynı ağda çalışmasını sağlayacak şekilde ayarlanabilir. Bunun haricinde legacy modu ise sadece eski cihazların bağlanabilmesine olanak tanır. 
 
 #### NOT: Bir ağdaki cihazların aynı standartları kullanması hız açısından maksimum verimliliği sağlayacağından farklı standartlı cihazların ağa dahil edilmesi ağın performansını olumsuz etkileyebilir.
 
-## Network Name (SSID): WLAN'i tanımlayan isimdir. Aynı ağa bağlı cihazların SSID'leri de aynıdır. SSID adını manuel olarak bırakmak isimde üreticinin adı ve ürünün modeli gibi bilgileri içerebileceğinden güvenlik açısından risk teşkil edebilir. Bu yüzden SSID isminin değiştirilmesi tavsiye edilir.
+## Network Name (SSID)
+WLAN'i tanımlayan isimdir. Aynı ağa bağlı cihazların SSID'leri de aynıdır. SSID adını manuel olarak bırakmak isimde üreticinin adı ve ürünün modeli gibi bilgileri içerebileceğinden güvenlik açısından risk teşkil edebilir. Bu yüzden SSID isminin değiştirilmesi tavsiye edilir.
 
-## Standart Channel: Belirli bir frekans bant aralığındaki kanalı seçmeye olanak tanır. Varsayılan olarak Accsess Point'in kullanılacak en uygun kanalı belirleyebilmesi için otomatik olarak ayarlanmıştır.
+## Standart Channel
+Belirli bir frekans bant aralığındaki kanalı seçmeye olanak tanır. Varsayılan olarak Accsess Point'in kullanılacak en uygun kanalı belirleyebilmesi için otomatik olarak ayarlanmıştır.
 
-## SSID Broadcast: SSID broadcastine izin verilip verilmeyeceği belirlenebilir. Bunun ne anlama geldiğini daha ilerleyen zamanlarda değineceğiz ama kısaca bahsetmek gerekirse; kablosuz cihazlara belirli aralıklarla SSID yayını yapılır. Bu sayede cihazlar hangi ağların mevcut olduğunu görebilir ve gerekli kimlik doğrulama işlemleri sağlandığında o ağlara bağlanabilir. Eğer SSID yayını kapalıysa SSID manuel olarak girilmelidir. Meşru olmayan kullanıcılar için SSID yayını kapatarak ağın görünürlülüğünü engellemeye çalışmak pek işe yarar bir yöntem değildir. Aksine meşru kullanıcıların ağa ulaşması zorlaşırken kötü niyetli aktörler SSID'yi farklı yollardan elde edebilir. Bunun yerine ağı korumanın yegâne yolları güçlü şifreleme yöntemleri ile kimlik doğrulama kullanmaktır.
+## SSID Broadcast
+SSID broadcastine izin verilip verilmeyeceği belirlenebilir. Bunun ne anlama geldiğini daha ilerleyen zamanlarda değineceğiz ama kısaca bahsetmek gerekirse; kablosuz cihazlara belirli aralıklarla SSID yayını yapılır. Bu sayede cihazlar hangi ağların mevcut olduğunu görebilir ve gerekli kimlik doğrulama işlemleri sağlandığında o ağlara bağlanabilir. Eğer SSID yayını kapalıysa SSID manuel olarak girilmelidir. Meşru olmayan kullanıcılar için SSID yayını kapatarak ağın görünürlülüğünü engellemeye çalışmak pek işe yarar bir yöntem değildir. Aksine meşru kullanıcıların ağa ulaşması zorlaşırken kötü niyetli aktörler SSID'yi farklı yollardan elde edebilir. Bunun yerine ağı korumanın yegâne yolları güçlü şifreleme yöntemleri ile kimlik doğrulama kullanmaktır.
 
 # Communication Protocols
 

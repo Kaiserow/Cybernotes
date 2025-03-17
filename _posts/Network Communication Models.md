@@ -1,4 +1,4 @@
-TCP/IP Model
+# TCP/IP Model
 
 Birazdan göreceğimiz katmanlı iletişim modelleri, ağ iletişiminde görevli protokollerin nasıl birlikte çalıştıklarını daha iyi anlamamız için bize görsel bir destek sunar. Bu model her üreticinin ekipmanı için ortak bir çalışma ortamı sunduğundan üretimi ve beraberinde rekabeti teşvik ederken aynı zamanda bir katmanda geliştirilen yeni teknolojilerin diğer katmanları etkilenmesinin önüne geçilir. Ayrıca ağın çeşitli fonksiyonlarını ve kapasitelerini açıklamak için ortak bir dil sunarak anlamayı kolaylaştırır.
 
@@ -13,7 +13,7 @@ Internet -> Ağ üzerindeki en iyi yolu belirler
 
 Network Access -> Donanımı ve medyayı ağa dahil etmeye olanak tanır.
 
-OSI (Open Systems Interconnection) Model
+# OSI (Open Systems Interconnection) Model
 
 TCP/IP modeli içindeki katmanlarda meydana gelen protokolleri tam anlamıyla açıkladığı için bir protokol modelidir. Hatta bu yüzden "TCP/IP Protocol Suite" olarak adlandırıldığını da görebilirsiniz. Ama bunun aksine OSI modeli bir katmanda tamamlanması gereken işlevleri açıklamasına rağmen ayrı katmanlarda meydana gelen farklı protokol süreçlerini tam olarak açıklamaz. OSI modelinin temel amacı ağ iletişimi için gerekli olan işlevlerin daha kolay anlaşılabilmesi için bir referans görevi görmektir. Bu yüzden OSI modeli bir referans modelidir.
 

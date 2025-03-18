@@ -48,6 +48,11 @@ Verinin fiziksel olarak iletiminden sorumludur. Bu katman ışık, radyo dalgala
 
 #### NOT: Her iki modeldeki katman tanımlamaları çok genel olup çok fazla ayrıntı içermemektedir. Buradaki amaç sadece katmanların genel görünüşünü görmektir. Bu katmanların her biri ilerleyen konularda zamanla işlenecektir.
 
+# OSI Model VS TCP/IP Model
+
+TCP/IP modeli protokolleri doğrudan tanımlar ve daha çok protokollerin çalışma biçimleriyle ilgilenir. Bunun yanında OSI modeli daha çok katmanların nasıl işlediğini anlatmaya çalışarak bir ağın genel olarak çalışma stilini açıklar. Bunu yaparken de protokolleri örnek olarak katmanların işlevlerini açıklamak için kullanır. OSI modeli daha çok bir öğretici rehber olarak kullanılırken TCP/IP modeli çalışma methodu olarak kullanılır.
+
+Yukarıdaki resimde de görüldüğü üzere iki modelde de "Transport" ve "Network ya da Internet" katmanları ortaktır. Onun dışında kalan application layer'in ve network accsess layerin OSI modelinde daha ayrıntılı bir şekilde katmanlara ayrıldığını görebiliriz. Bu modelin daha ayrıntılı katmanlara ayrılması her katmanın görevini daha da özelleştirerek ağın genel olarak çalışma prensiplerini daha rahat anlamamıza olanak tanır.
 
 
 

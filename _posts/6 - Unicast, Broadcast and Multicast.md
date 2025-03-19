@@ -15,7 +15,7 @@ Ethernet switch'i bir hosttan hedef IPv4 adresi 255.255.255.255 olan bir paket a
 
 #### Not: Broadcast domain, aynı ağ segmentinde bulunan tüm cihazları içerir. Ağlar performans, verimlilik, ölçeklenebilirlik ve güvenlik gibi sebeplerden ötürü çeşitli segmentlere ayrılabilir. Buna da daha sonra değineceğiz.
 
-Broadcast "Directed Broadcast" ve "Limited Broadcast" olarak ikiye ayrılır.
+Broadcast "Directed Broadcast" ve "Limited Broadcast" olarak ikiye ayrılır;
 
 ## Directed Broadcast
 

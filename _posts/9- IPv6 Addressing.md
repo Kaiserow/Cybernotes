@@ -33,7 +33,9 @@ Hextet'lerin her biri 4 adet gruba ayrılır. Bu 4 grubun her birinde 4 bit bulu
 IPv6 adresleri belli başlı kurallara uygun, tam ve eksiksiz yazıldığında "Preferred Format" yani tarcih edilen format kullanıldığı anlamına gelir. Bu da şu anlamlara gelir;
 
 • Tüm 8 hextet tamamen yazılır.
+
 • Her hextet 4 karakter içerir. Eğer karakter eksikse başına sıfır eklenir. (Sıfır ekleme ayrıca bir kuraldır bu yüzden aşağıda bahsedeceğim.)
+
 • 0'lar kısaltılmadan yazılır. (Bu da ayrıca aşağıda bahsedeceğim bir kuraldır.)
 
 ## Rule 1: Omiting Leading 0s

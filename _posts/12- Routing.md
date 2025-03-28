@@ -14,8 +14,10 @@ Kaynak ve hedef hostların IP adreslerinin network portionu eşleşmediğinde, m
 
 # Routing Table
 
-Routerlar farklı bir ağa veri gönderilmesi gerektiğinde bunu routing table sayesinde yaparlar. Aslında routerlar remote bir networkteki hostların ip adresleriyle tamamen ilgilenmezler ve bu yüzden de mesajı routing yaparken en iyi yolu tercih edecek şekilde hedef ip adresinin network portionuna karşılık gelen arayüzden iletirler. Bu routing tablosuna bilgiler iki şekilde kaydedilebilir; Diğer ağlardaki routerlardan bilgi alıp dinamik olarak ya da bir network admini tarafından manuel olarak.
+Routerlar farklı bir ağa veri gönderilmesi gerektiğinde bunu routing table sayesinde yaparlar. Aslında routerlar remote bir networkteki hostların ip adresleriyle tamamen ilgilenmezler ve bu yüzden de mesajı routing yaparken en iyi yolu tercih edecek şekilde hedef ip adresinin network portionuna karşılık gelen porttan iletirler. Bu routing tablosuna bilgiler iki şekilde kaydedilebilir; Diğer ağlardaki routerlardan bilgi alıp dinamik olarak ya da bir network admini tarafından manuel olarak.
 
 Routerlar mesajı nereye yönlendirmesi gerektiğini bilemezse yani aslında routing tablosunda bu bilgi yer almıyorsa, mesaj droplanır. Mesajların droplanmaması için network adminleri "default route" belirleyerek mesajın varsayılan yoldan gitmesini sağlayabilirler. Default route mesajı genelde başka bir routera iletmeyi sağlayarak mesajın son hedefe ulaşmasını amaçlar.
 
 ![Image](images/10fig06_alt.jpg)
+
+

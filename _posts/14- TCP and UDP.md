@@ -49,5 +49,5 @@ Bilginiz olmadan açılmış TCP bağlantıları güvenliğiniz için ciddi bir 
 
 
 
-#### NOT: TCP, UDP ve port numaraları ile ilgili daha fazla ayrıntı ileride işlenecektir.
+#### NOT: TCP, UDP ile ilgili daha fazla ayrıntı ileride işlenecektir.
 

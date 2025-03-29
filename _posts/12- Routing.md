@@ -20,4 +20,10 @@ Routerlar mesajı nereye yönlendirmesi gerektiğini bilemezse yani aslında rou
 
 ![Image](images/10fig06_alt.jpg)
 
+# LANs Hakkında
+
+LAN'ler eskiden tek bir konumda bulunan küçük ağları tanımlamak için kullanılırken günümüzde farklı konumlarda bulunabilen birden fazla ağın birbirine bağlanmasıyla da oluşabilir. LAN'lerin en karakterist özelliği, LAN'de birden fazla yerel ağ olsa bile tek bir yönetimsel kontrol altında olmasıdır.
+
+İntranet tanımı, organizasyon gibi yapıların private LAN'i için kullanılan bir terimdir. Bu terim, sadece o organizasyonun çalışanlarının ya da yetki sahiplerinin o ağa erişebileceğini ifade eder.
+
 

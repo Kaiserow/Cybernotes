@@ -31,7 +31,7 @@ Bunlar çeşitli uygulamaları temsil etmek için kullanılan portlardır. (Örn
 
 Source ve destination portları bir segmentin (TCP) ya da datagramın (UDP) içine yerleştirilir. Bunlar da daha sonra source IP ve destination IP bilgisi içeren IP paketlerine kapsüllenir. İşte tam olarak, source IP ve source port ya da destination IP ve destination port kombinasyonuna "Socket" denir. Bunların dördünün de bir araya gelmesi "Socket Pair" kavramını oluşturur. Aslında socketlar, bir sunucunun kimliğini (yani hangi sunucu olduğunu) ve onun sunduğu hizmetlerden hangisinin ilgili hizmet olduğunu belirtmek için kullanılır. Örneğin, 192.168.1.7 adresli serverdan web sayfası hizmetini talep edeceksem socketim 192.168.1.7:80 şeklinde olmalıdır. Socketlar, sadece serverlar için de değil aynı zamanda işletim sistemlerinde de aynı görevi görürler. Yani, 192.168.1.5 hostu tanımlamak için kullanılır ve serverdan spesifik bir hizmeti tanımlamak için de 1099 portunu kullanabilir ve socket "192.168.1.5:1099" şeklinde olabilir. Bu socketlar sayesinde ilgili hizmet doğru şekilde talep edilir ve iletişimlerin karışması önlenmiş olur.
 
-Bilginiz olmadan açılmış TCP bağlantıları güvenliğiniz için ciddi bir tehdit oluşturabilir. Bu durum, bir şeyin ve birinin hostunuza bağlı olduğunu gösterebilir. Bu yüzden komut satırında "netstat" komutu ile mevcut TCP bağlantılarını gözlemleyebilirsiniz.
+Bilginiz olmadan açılmış TCP bağlantıları güvenliğiniz için ciddi bir tehdit oluşturabilir. Bu durum, bir şeyin veya birinin hostunuza bağlı olduğunu gösterebilir. Bu yüzden komut satırında "netstat" komutu ile mevcut TCP bağlantılarını gözlemleyebilirsiniz.
 
 
 
